@@ -9,7 +9,7 @@ PROCESSED_DIR = "data/processed"
 INDEX_PATH = "data/index/ifk_faiss_index.index"
 
 # Ladda embedding-modellen
-model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
+model = SentenceTransformer("intfloat/multilingual-e5-large")
 
 # Ladda Faiss-index
 dim = 384  # Dimensionen på embeddings
@@ -27,7 +27,7 @@ def embed_text(text):
     """ Skapa en embedding av texten för frågan """
     return model.encode(text, normalize_embeddings=True)
 
-def search_index(query, top_k=10):
+def search_index(query, top_k=6):
     """ Söker i Faiss-index och hämtar chunkar från JSON-filerna """
     query_vector = embed_text(query)
     query_vector = np.array([query_vector]).astype("float32")
@@ -54,7 +54,7 @@ def search_index(query, top_k=10):
 
     return results
 
-def ask_lm_studio(question, max_tokens=150, temperature=0.3):
+def ask_lm_studio(question, max_tokens=500, temperature=0.3):
     """ Ställ en fråga och skicka relevanta chunks till LM Studio """
     retrieved_chunks = search_index(question)
 
@@ -62,7 +62,7 @@ def ask_lm_studio(question, max_tokens=150, temperature=0.3):
     if not retrieved_chunks:
         return "Jag vet inte."
 
-    context = "\n".join(retrieved_chunks[:3])  # max 3 chunks
+    context = "\n".join(retrieved_chunks[:6])  # max 3 chunks
 
     print(f"📤 Skickar prompt till LM Studio (förkortad version visas)...")
 
@@ -89,7 +89,7 @@ def ask_lm_studio(question, max_tokens=150, temperature=0.3):
     response = requests.post(
         "http://localhost:1234/v1/completions",
         json={
-            "model": "deepseek-r1-distill-qwen-7b",
+            "model": "mistral-7b-instruct-v0.2",
             "prompt": prompt,
             "max_tokens": max_tokens,
             "temperature": temperature  

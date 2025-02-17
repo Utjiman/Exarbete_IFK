@@ -9,10 +9,10 @@ PROCESSED_DIR = "data/processed"
 INDEX_PATH = "data/index/ifk_faiss_index.index"
 
 # Ladda embedding-modellen
-model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
+model = SentenceTransformer("intfloat/multilingual-e5-large")
 
 # Skapa en Faiss index
-dim = 768  # Dimensionen för embeddings
+dim = 1024  # Dimensionen för embeddings
 index = faiss.IndexFlatL2(dim)
 
 # För att hålla koll på globalt unika chunk-id
