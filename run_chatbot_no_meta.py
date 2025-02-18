@@ -1,4 +1,4 @@
-from chatbot import ask_lm_studio
+from chatbot_no_meta import ask_lm_studio
 
 if __name__ == "__main__":
     print("🔵 IFK Göteborg Chatbot - Ställ en fråga!")
