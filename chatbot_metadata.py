@@ -34,7 +34,7 @@ def search_index(query, top_k=10):
     
     distances, indices = index.search(query_vector, top_k)
 
-    print(f"🔎 DEBUG: Rådata från Faiss")
+    print(f"🔎 Rådata från Faiss")
     print(f"   - Distances: {distances}")
     print(f"   - Indices: {indices}")
 
@@ -63,7 +63,6 @@ def ask_lm_studio(question, max_tokens=500, temperature=0.3):
 
     context = "\n".join([f"Text: {chunk['text']} | Metadata: {chunk['metadata']}" for chunk in retrieved_chunks[:6]])
 
-    print(f"📤 Skickar prompt till LM Studio (förkortad version visas)...")
 
     prompt = f"""
     Du är en expert på IFK Göteborg.

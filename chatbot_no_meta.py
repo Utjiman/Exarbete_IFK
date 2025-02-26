@@ -27,7 +27,7 @@ def embed_text(text):
     """ Skapa en embedding av texten för frågan """
     return model.encode(text, normalize_embeddings=True)
 
-def search_index(query, top_k=6):
+def search_index(query, top_k=10):
     """ Söker i Faiss-index och hämtar chunkar från JSON-filerna """
     query_vector = embed_text(query)
     query_vector = np.array([query_vector]).astype("float32")
@@ -35,7 +35,7 @@ def search_index(query, top_k=6):
    
     distances, indices = index.search(query_vector, top_k)
 
-    print(f"🔎 DEBUG: Rådata från Faiss")
+    print(f"🔎 Rådata från Faiss")
     print(f"   - Distances: {distances}")
     print(f"   - Indices: {indices}")
 
@@ -64,7 +64,6 @@ def ask_lm_studio(question, max_tokens=500, temperature=0.3):
 
     context = "\n".join(retrieved_chunks[:6]) 
 
-    print(f"📤 Skickar prompt till LM Studio (förkortad version visas)...")
 
     prompt = f"""
     Du är en expert på IFK Göteborg.
