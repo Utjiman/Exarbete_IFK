@@ -1,0 +1,442 @@
+[
+    {
+        "chunk_id": 0,
+        "text": "Namn: Sándor BRÓDY\nTitel: Huvudtränare 1921-1923-24\nDetaljer: Ansvarig i 90 matcher över 3 säsonger",
+        "metadata": {
+            "namn": "Sándor BRÓDY",
+            "titel": "Huvudtränare 1921-1923-24",
+            "år": "1921-1923",
+            "säsonger": 3,
+            "matcher": 90
+        }
+    },
+    {
+        "chunk_id": 1,
+        "text": "Namn: Henning SVENSSON\nTitel: Huvudtränare 1924/25-1929-30, 1930/31-1931/32, 1942/43\nDetaljer: Ansvarig i 289 matcher över 10 säsonger",
+        "metadata": {
+            "namn": "Henning SVENSSON",
+            "titel": "Huvudtränare 1924/25-1929-30, 1930/31-1931/32, 1942/43",
+            "år": "1924/25-1929-30, 1930/31-1931/32",
+            "säsonger": 10,
+            "matcher": 289
+        }
+    },
+    {
+        "chunk_id": 2,
+        "text": "Namn: Erik HJELM\nTitel: Huvudtränare 1929/30-1929-30, 1932/33-1937/38\nDetaljer: Ansvarig i 222 matcher över 7 säsonger",
+        "metadata": {
+            "namn": "Erik HJELM",
+            "titel": "Huvudtränare 1929/30-1929-30, 1932/33-1937/38",
+            "år": "1929/30-1929-30, 1932/33-1937/38",
+            "säsonger": 7,
+            "matcher": 222
+        }
+    },
+    {
+        "chunk_id": 3,
+        "text": "Namn: David MORRIS\nTitel: Huvudtränare 1937/38-1940-41\nDetaljer: Ansvarig i 106 matcher över 3 säsonger",
+        "metadata": {
+            "namn": "David MORRIS",
+            "titel": "Huvudtränare 1937/38-1940-41",
+            "år": "1937/38-1940-41",
+            "säsonger": 3,
+            "matcher": 106
+        }
+    },
+    {
+        "chunk_id": 4,
+        "text": "Namn: Ernst ANDERSSON\nTitel: Huvudtränare 1941/42-1942-43\nDetaljer: Ansvarig i 54 matcher över 2 säsonger",
+        "metadata": {
+            "namn": "Ernst ANDERSSON",
+            "titel": "Huvudtränare 1941/42-1942-43",
+            "år": "1941/42-1942-43",
+            "säsonger": 2,
+            "matcher": 54
+        }
+    },
+    {
+        "chunk_id": 5,
+        "text": "Namn: József NAGY\nTitel: Huvudtränare 1943/44-1947-48\nDetaljer: Ansvarig i 191 matcher över 5 säsonger",
+        "metadata": {
+            "namn": "József NAGY",
+            "titel": "Huvudtränare 1943/44-1947-48",
+            "år": "1943/44-1947-48",
+            "säsonger": 5,
+            "matcher": 191
+        }
+    },
+    {
+        "chunk_id": 6,
+        "text": "Namn: Gunnar RYDBERG\nTitel: Huvudtränare 1948/49-1948-49\nDetaljer: Ansvarig i 45 matcher över 1 säsong",
+        "metadata": {
+            "namn": "Gunnar RYDBERG",
+            "titel": "Huvudtränare 1948/49-1948-49",
+            "år": "1948/49-1948-49",
+            "säsonger": 1,
+            "matcher": 45
+        }
+    },
+    {
+        "chunk_id": 7,
+        "text": "Namn: John MAHON\nTitel: Huvudtränare 1949/50-1952-53\nDetaljer: Ansvarig i 158 matcher över 4 säsonger",
+        "metadata": {
+            "namn": "John MAHON",
+            "titel": "Huvudtränare 1949/50-1952-53",
+            "år": "1949/50-1952-53",
+            "säsonger": 4,
+            "matcher": 158
+        }
+    },
+    {
+        "chunk_id": 8,
+        "text": "Namn: Axel OHLSSON\nTitel: Huvudtränare 1953/54-1953-54\nDetaljer: Ansvarig i 59 matcher över 3 säsonger",
+        "metadata": {
+            "namn": "Axel OHLSSON",
+            "titel": "Huvudtränare 1953/54-1953-54",
+            "år": "1953/54-1953-54",
+            "säsonger": 3,
+            "matcher": 59
+        }
+    },
+    {
+        "chunk_id": 9,
+        "text": "Namn: Walter PROBST\nTitel: Huvudtränare 1954/55-1959\nDetaljer: Ansvarig i 206 matcher över 5 säsonger",
+        "metadata": {
+            "namn": "Walter PROBST",
+            "titel": "Huvudtränare 1954/55-1959",
+            "år": "Ej specificerat",
+            "säsonger": 5,
+            "matcher": 206
+        }
+    },
+    {
+        "chunk_id": 10,
+        "text": "Namn: Rune EMANUELSSON\nTitel: Interimtränare 1959\nDetaljer: Ansvarig i 5 matcher över 1 säsong",
+        "metadata": {
+            "namn": "Rune EMANUELSSON",
+            "titel": "Interimtränare 1959",
+            "år": "Ej specificerat",
+            "säsonger": 1,
+            "matcher": 5
+        }
+    },
+    {
+        "chunk_id": 11,
+        "text": "Namn: Josef STROH\nTitel: Huvudtränare 1959-1960\nDetaljer: Ansvarig i 48 matcher över 2 säsonger",
+        "metadata": {
+            "namn": "Josef STROH",
+            "titel": "Huvudtränare 1959-1960",
+            "år": "1959-1960",
+            "säsonger": 2,
+            "matcher": 48
+        }
+    },
+    {
+        "chunk_id": 12,
+        "text": "Namn: Gunnar GREN\nTitel: Interimtränare 1960\nDetaljer: Ansvarig i 15 matcher över 1 säsong",
+        "metadata": {
+            "namn": "Gunnar GREN",
+            "titel": "Interimtränare 1960",
+            "år": "Ej specificerat",
+            "säsonger": 1,
+            "matcher": 15
+        }
+    },
+    {
+        "chunk_id": 13,
+        "text": "Namn: Holger HANSSON\nTitel: Huvudtränare 1961-1962, 1974\nDetaljer: Ansvarig i 142 matcher över 3 säsonger",
+        "metadata": {
+            "namn": "Holger HANSSON",
+            "titel": "Huvudtränare 1961-1962, 1974",
+            "år": "1961-1962",
+            "säsonger": 3,
+            "matcher": 142
+        }
+    },
+    {
+        "chunk_id": 14,
+        "text": "Namn: Yngve BRODD\nTitel: Huvudtränare 1963-1966\nDetaljer: Ansvarig i 167 matcher över 4 säsonger",
+        "metadata": {
+            "namn": "Yngve BRODD",
+            "titel": "Huvudtränare 1963-1966",
+            "år": "1963-1966",
+            "säsonger": 4,
+            "matcher": 167
+        }
+    },
+    {
+        "chunk_id": 15,
+        "text": "Namn: Bertil JOHANSSON\nTitel: Huvudtränare 1967-1970\nDetaljer: Ansvarig i 172 matcher över 4 säsonger",
+        "metadata": {
+            "namn": "Bertil JOHANSSON",
+            "titel": "Huvudtränare 1967-1970",
+            "år": "1967-1970",
+            "säsonger": 4,
+            "matcher": 172
+        }
+    },
+    {
+        "chunk_id": 16,
+        "text": "Namn: Hans KARLSSON\nTitel: Huvudtränare 1971-1973, 1977-1978\nDetaljer: Ansvarig i 229 matcher över 6 säsonger",
+        "metadata": {
+            "namn": "Hans KARLSSON",
+            "titel": "Huvudtränare 1971-1973, 1977-1978",
+            "år": "1971-1973, 1977-1978",
+            "säsonger": 6,
+            "matcher": 229
+        }
+    },
+    {
+        "chunk_id": 17,
+        "text": "Namn: Nils BERGHAMN\nTitel: Huvudtränare 1975-1976\nDetaljer: Ansvarig i 97 matcher över 2 säsonger",
+        "metadata": {
+            "namn": "Nils BERGHAMN",
+            "titel": "Huvudtränare 1975-1976",
+            "år": "1975-1976",
+            "säsonger": 2,
+            "matcher": 97
+        }
+    },
+    {
+        "chunk_id": 18,
+        "text": "Namn: Sven-Göran ERIKSSON\nTitel: Huvudtränare 1979-1982\nDetaljer: Ansvarig i 196 matcher över 4 säsonger",
+        "metadata": {
+            "namn": "Sven-Göran ERIKSSON",
+            "titel": "Huvudtränare 1979-1982",
+            "år": "1979-1982",
+            "säsonger": 4,
+            "matcher": 196
+        }
+    },
+    {
+        "chunk_id": 19,
+        "text": "Namn: Gunder BENGTSSON\nTitel: Huvudtränare 1982, 1985-1987\nDetaljer: Ansvarig i 204 matcher över 5 säsonger",
+        "metadata": {
+            "namn": "Gunder BENGTSSON",
+            "titel": "Huvudtränare 1982, 1985-1987",
+            "år": "1985-1987",
+            "säsonger": 5,
+            "matcher": 204
+        }
+    },
+    {
+        "chunk_id": 20,
+        "text": "Namn: Björn WESTERBERG\nTitel: Huvudtränare 1983-1984\nDetaljer: Ansvarig i 112 matcher över 2 säsonger",
+        "metadata": {
+            "namn": "Björn WESTERBERG",
+            "titel": "Huvudtränare 1983-1984",
+            "år": "1983-1984",
+            "säsonger": 2,
+            "matcher": 112
+        }
+    },
+    {
+        "chunk_id": 21,
+        "text": "Namn: Kjell PETTERSSON\nTitel: Huvudtränare 1988-1989, 2006\nDetaljer: Ansvarig i 122 matcher över 4 säsonger",
+        "metadata": {
+            "namn": "Kjell PETTERSSON",
+            "titel": "Huvudtränare 1988-1989, 2006",
+            "år": "1988-1989",
+            "säsonger": 4,
+            "matcher": 122
+        }
+    },
+    {
+        "chunk_id": 22,
+        "text": "Namn: Roger GUSTAFSSON\nTitel: Huvudtränare 1990-1995, 2002\nDetaljer: Ansvarig i 359 matcher över 8 säsonger",
+        "metadata": {
+            "namn": "Roger GUSTAFSSON",
+            "titel": "Huvudtränare 1990-1995, 2002",
+            "år": "1990-1995",
+            "säsonger": 8,
+            "matcher": 359
+        }
+    },
+    {
+        "chunk_id": 23,
+        "text": "Namn: Mats JINGBLAD\nTitel: Huvudtränare 1996-1998\nDetaljer: Ansvarig i 142 matcher över 3 säsonger",
+        "metadata": {
+            "namn": "Mats JINGBLAD",
+            "titel": "Huvudtränare 1996-1998",
+            "år": "1996-1998",
+            "säsonger": 3,
+            "matcher": 142
+        }
+    },
+    {
+        "chunk_id": 24,
+        "text": "Namn: Reine ALMQVIST\nTitel: Huvudtränare 1998-1999\nDetaljer: Ansvarig i 54 matcher över 2 säsonger",
+        "metadata": {
+            "namn": "Reine ALMQVIST",
+            "titel": "Huvudtränare 1998-1999",
+            "år": "1998-1999",
+            "säsonger": 2,
+            "matcher": 54
+        }
+    },
+    {
+        "chunk_id": 25,
+        "text": "Namn: Stefan LUNDIN\nTitel: Huvudtränare 1999-2002\nDetaljer: Ansvarig i 152 matcher över 4 säsonger",
+        "metadata": {
+            "namn": "Stefan LUNDIN",
+            "titel": "Huvudtränare 1999-2002",
+            "år": "1999-2002",
+            "säsonger": 4,
+            "matcher": 152
+        }
+    },
+    {
+        "chunk_id": 26,
+        "text": "Namn: Bo JOHANSSON\nTitel: Huvudtränare 2003-2004\nDetaljer: Ansvarig i 84 matcher över 2 säsonger",
+        "metadata": {
+            "namn": "Bo JOHANSSON",
+            "titel": "Huvudtränare 2003-2004",
+            "år": "2003-2004",
+            "säsonger": 2,
+            "matcher": 84
+        }
+    },
+    {
+        "chunk_id": 27,
+        "text": "Namn: Arne ERLANDSEN\nTitel: Huvudtränare 2004-2006\nDetaljer: Ansvarig i 101 matcher över 3 säsonger",
+        "metadata": {
+            "namn": "Arne ERLANDSEN",
+            "titel": "Huvudtränare 2004-2006",
+            "år": "2004-2006",
+            "säsonger": 3,
+            "matcher": 101
+        }
+    },
+    {
+        "chunk_id": 28,
+        "text": "Namn: Jonas OLSSON\nTitel: Huvudtränare 2007-2011\nDetaljer: Ansvarig i 236 matcher över 5 säsonger",
+        "metadata": {
+            "namn": "Jonas OLSSON",
+            "titel": "Huvudtränare 2007-2011",
+            "år": "2007-2011",
+            "säsonger": 5,
+            "matcher": 236
+        }
+    },
+    {
+        "chunk_id": 29,
+        "text": "Namn: Stefan REHN\nTitel: Huvudtränare 2007-2010\nDetaljer: Ansvarig i 167 matcher över 4 säsonger",
+        "metadata": {
+            "namn": "Stefan REHN",
+            "titel": "Huvudtränare 2007-2010",
+            "år": "2007-2010",
+            "säsonger": 4,
+            "matcher": 167
+        }
+    },
+    {
+        "chunk_id": 30,
+        "text": "Namn: Mikael STAHRE\nTitel: Huvudtränare 2012-2014, 2021-2023\nDetaljer: Ansvarig i 211 matcher över 6 säsonger",
+        "metadata": {
+            "namn": "Mikael STAHRE",
+            "titel": "Huvudtränare 2012-2014, 2021-2023",
+            "år": "2012-2014, 2021-2023",
+            "säsonger": 6,
+            "matcher": 211
+        }
+    },
+    {
+        "chunk_id": 31,
+        "text": "Namn: Jörgen LENNARTSSON\nTitel: Huvudtränare 2015-2017\nDetaljer: Ansvarig i 125 matcher över 3 säsonger",
+        "metadata": {
+            "namn": "Jörgen LENNARTSSON",
+            "titel": "Huvudtränare 2015-2017",
+            "år": "2015-2017",
+            "säsonger": 3,
+            "matcher": 125
+        }
+    },
+    {
+        "chunk_id": 32,
+        "text": "Namn: Alf WESTERBERG\nTitel: Interimtränare 2017, 2018, 2020\nDetaljer: Ansvarig i 18 matcher över 2 säsonger",
+        "metadata": {
+            "namn": "Alf WESTERBERG",
+            "titel": "Interimtränare 2017, 2018, 2020",
+            "år": "Ej specificerat",
+            "säsonger": 2,
+            "matcher": 18
+        }
+    },
+    {
+        "chunk_id": 33,
+        "text": "Namn: Poya ASBAGHI\nTitel: Huvudtränare 2018-2020\nDetaljer: Ansvarig i 144 matcher över 4 säsonger",
+        "metadata": {
+            "namn": "Poya ASBAGHI",
+            "titel": "Huvudtränare 2018-2020",
+            "år": "2018-2020",
+            "säsonger": 4,
+            "matcher": 144
+        }
+    },
+    {
+        "chunk_id": 34,
+        "text": "Namn: Roland NILSSON\nTitel: Huvudtränare 2020-2021\nDetaljer: Ansvarig i 31 matcher över 2 säsonger",
+        "metadata": {
+            "namn": "Roland NILSSON",
+            "titel": "Huvudtränare 2020-2021",
+            "år": "2020-2021",
+            "säsonger": 2,
+            "matcher": 31
+        }
+    },
+    {
+        "chunk_id": 35,
+        "text": "Namn: Alexander TENGRYD\nTitel: Interimtränare 2023\nDetaljer: Ansvarig i 14 matcher över 1 säsong",
+        "metadata": {
+            "namn": "Alexander TENGRYD",
+            "titel": "Interimtränare 2023",
+            "år": "Ej specificerat",
+            "säsonger": 1,
+            "matcher": 14
+        }
+    },
+    {
+        "chunk_id": 36,
+        "text": "Namn: William LUNDIN\nTitel: Interimtränare 2023\nDetaljer: Ansvarig i 14 matcher över 1 säsong",
+        "metadata": {
+            "namn": "William LUNDIN",
+            "titel": "Interimtränare 2023",
+            "år": "Ej specificerat",
+            "säsonger": 1,
+            "matcher": 14
+        }
+    },
+    {
+        "chunk_id": 37,
+        "text": "Namn: Jens ASKOU\nTitel: Huvudtränare 2023-2024\nDetaljer: Ansvarig i 44 matcher över 2 säsonger",
+        "metadata": {
+            "namn": "Jens ASKOU",
+            "titel": "Huvudtränare 2023-2024",
+            "år": "2023-2024",
+            "säsonger": 2,
+            "matcher": 44
+        }
+    },
+    {
+        "chunk_id": 38,
+        "text": "Namn: Sindre TJELMELAND\nTitel: Interimtränare 2024\nDetaljer: Ansvarig i 2 matcher över 1 säsong",
+        "metadata": {
+            "namn": "Sindre TJELMELAND",
+            "titel": "Interimtränare 2024",
+            "år": "Ej specificerat",
+            "säsonger": 1,
+            "matcher": 2
+        }
+    },
+    {
+        "chunk_id": 39,
+        "text": "Namn: Stefan BILLBORN\nTitel: Huvudtränare 2024-\nDetaljer: Ansvarig i 19 matcher över 1 säsong",
+        "metadata": {
+            "namn": "Stefan BILLBORN",
+            "titel": "Huvudtränare 2024-",
+            "år": "Ej specificerat",
+            "säsonger": 1,
+            "matcher": 19
+        }
+    }
+]

@@ -10,21 +10,21 @@ soup = BeautifulSoup(response.text, "html.parser")
 
 matches = []
 
-table_rows = soup.select("table tr")[1:]  # Hoppa över första raden (rubriker)
+table_rows = soup.select("table tr")[1:]  
 
 for row in table_rows:
     cols = row.find_all("td")
 
-    if len(cols) >= 7:  # Se till att vi har tillräckligt med kolumner
-        date = cols[0].text.strip()  # Datum
-        match_type = cols[1].text.strip()  # Matchtyp (ex. Allsvenskan, Vänskapsmatch)
-        round_number = cols[2].text.strip() if cols[2].text.strip() else "N/A"  # Omgång
-        teams = cols[3].text.strip().replace("\xa0", " ")  # Match 
-        result = cols[4].text.strip() if cols[4].text.strip() else "Ej spelad"  # Resultat
-        venue = cols[5].text.strip()  # Spelplats
+    if len(cols) >= 7:  
+        date = cols[0].text.strip()  
+        match_type = cols[1].text.strip()  
+        round_number = cols[2].text.strip() if cols[2].text.strip() else "N/A"  
+        teams = cols[3].text.strip().replace("\xa0", " ")   
+        result = cols[4].text.strip() if cols[4].text.strip() else "Ej spelad" 
+        venue = cols[5].text.strip()  
         attendance = cols[6].text.strip().replace(" ", "").replace("\xa0", "")  
 
-        # Lagra datan i en lista
+        
         matches.append({
             "Datum": date,
             "Matchtyp": match_type,

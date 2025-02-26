@@ -8,15 +8,15 @@ from sentence_transformers import SentenceTransformer
 PROCESSED_DIR = "data/processed"
 INDEX_PATH = "data/index/ifk_faiss_index.index"
 
-# Ladda embedding-modellen
+
 model = SentenceTransformer("intfloat/multilingual-e5-large")
 
-# Ladda Faiss-index
-dim = 384  # Dimensionen på embeddings
+
+dim = 1024  
 index = faiss.read_index(INDEX_PATH)
 
 
-# ✅ Ladda alla chunkade JSON-filer i en lista
+
 chunk_data = []
 for filename in os.listdir(PROCESSED_DIR):
     if filename.endswith("_chunks.json"):
@@ -32,14 +32,14 @@ def search_index(query, top_k=6):
     query_vector = embed_text(query)
     query_vector = np.array([query_vector]).astype("float32")
 
-    # Sök i Faiss-indexet
+   
     distances, indices = index.search(query_vector, top_k)
 
     print(f"🔎 DEBUG: Rådata från Faiss")
     print(f"   - Distances: {distances}")
     print(f"   - Indices: {indices}")
 
-    indices = [int(idx) for idx in indices[0]]  # Konvertera till int
+    indices = [int(idx) for idx in indices[0]] 
 
     results = []
     for idx in indices:
@@ -62,7 +62,7 @@ def ask_lm_studio(question, max_tokens=500, temperature=0.3):
     if not retrieved_chunks:
         return "Jag vet inte."
 
-    context = "\n".join(retrieved_chunks[:6])  # max 3 chunks
+    context = "\n".join(retrieved_chunks[:6]) 
 
     print(f"📤 Skickar prompt till LM Studio (förkortad version visas)...")
 
