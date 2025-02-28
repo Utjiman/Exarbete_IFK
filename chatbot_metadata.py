@@ -61,7 +61,7 @@ def ask_lm_studio(question, max_tokens=500, temperature=0.3):
     if not retrieved_chunks:
         return "Jag vet inte."
 
-    context = "\n".join([f"Text: {chunk['text']} | Metadata: {chunk['metadata']}" for chunk in retrieved_chunks[:10]])
+    context = "\n".join([f"Text: {chunk['text']} | Metadata: {chunk['metadata']}" for chunk in retrieved_chunks[:6]])
 
 
     prompt = f"""
